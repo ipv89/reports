@@ -9,5 +9,7 @@ Each time the data is written to the database the date and time is recorded.
 
 TODO
 
-*Add top domains, top advertisers and top clients to the list of stats saved
+*Add top domains, top advertisers [Done]
+*top clients to the list of stats saved
 *Create adminUI to create/view reports
+
