@@ -8,14 +8,13 @@
 
 function db_connect() {
 
-
     static $connection;
 
 
     if(!isset($connection)) {
 
         $config = parse_ini_file('../config.ini');
-        $connection = mysqli_connect('192.168.0.19',$config['username'],$config['password'],$config['dbname']);
+        $connection = mysqli_connect($config['serverAddress'],$config['username'],$config['password'],$config['dbname']);
     }
 
 
